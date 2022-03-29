@@ -1,0 +1,31 @@
+n{
+  color:green;
+}
+.color-lump{
+    width: 500px;
+    height: 500px;
+    margin-right:10px;
+    background-color: #33cd5f;
+    float:left;
+}
+.color-lump2{
+    width: 500px;
+    height: 500px;
+    background-color: #32bbcd;
+    float:left;
+}
+@media (min-width: 1300px) {
+  n {
+    font-size: 10px;
+  }
+}
+@media (max-width: 800px) {
+  n {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1000px) and  (max-width: 1500px)
+n {
+    font-size: 20px;
+  }
+}
